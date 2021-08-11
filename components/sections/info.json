@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_infos",
+  "info": {
+    "name": "info",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "check": {
+      "type": "string"
+    }
+  }
+}

@@ -16,11 +16,7 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
-    "content": {
+    "body": {
       "type": "richtext",
       "required": true
     },
@@ -29,11 +25,11 @@
       "targetField": "title",
       "required": true
     },
-    "category": {
-      "model": "category",
-      "via": "articles"
+    "author": {
+      "via": "articles",
+      "model": "writer"
     },
-    "image": {
+    "imagen": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -44,10 +40,6 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
-    },
-    "author": {
-      "via": "articles",
-      "model": "writer"
     }
   }
 }

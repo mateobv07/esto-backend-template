@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_metas",
+  "info": {
+    "name": "meta",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "hello": {
+      "type": "string"
+    }
+  }
+}
